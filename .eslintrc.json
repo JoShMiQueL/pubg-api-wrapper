@@ -10,5 +10,5 @@
     "ecmaVersion": "latest"
   },
   "rules": {},
-  "ignorePatterns": ["/node_modules", "/lib"]
+  "ignorePatterns": ["/node_modules", "/lib", "**/*.d.ts"]
 }
