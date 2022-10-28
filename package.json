@@ -5,7 +5,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "lint": "eslint --ext .js,.ts ./src",
-    "format": "prettier -w \"**/*.+(js|ts|json)\""
+    "format": "prettier -w \"**/*.+(js|ts|json)\"",
+    "prepare": "node ./build.js && npm run lint && npm run format"
   },
   "keywords": [
     "pubg",

@@ -9,5 +9,6 @@
     "project": ["./tsconfig.json"],
     "ecmaVersion": "latest"
   },
-  "rules": {}
+  "rules": {},
+  "ignorePatterns": ["/node_modules", "/lib"]
 }
