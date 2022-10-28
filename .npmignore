@@ -1,7 +1,10 @@
 /node_modules
 /src
+.eslintrc.json
 .gitignore
 .npmignore
+.prettierignore
+.prettierrc
 build.js
 package-lock.json
 tsconfig.json
