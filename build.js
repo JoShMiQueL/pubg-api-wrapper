@@ -18,9 +18,8 @@ require("esbuild").buildSync({
   allowOverwrite: true,
   platform: "node",
   format: "cjs",
-  external: Object.keys(require("./package.json").dependencies),
+  external: Object.keys(require("./package.json").dependencies)
 });
-
 
 // Generate types
 execSync("npx dts-bundle-generator ./src/index.ts -o ./lib/index.d.ts");
